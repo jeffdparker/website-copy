@@ -55,8 +55,20 @@ def distance(strand_a, strand_b):
 	
 ### Common Suggestions
 
-A List Comprehension can be suggested, but isn't an obvious win.
+A List Comprehension, as shown above, can be suggested, but it isn't an obvious win.
 	 
 ### Talking points
 
 Running time is not a concern here. It is hard to make this worse than O(N).
+
+Adding a check for equality, as in the fragment below,
+is a good example of premature optimization.
+The odds that two random strings are identical is vanishingly small.
+
+```python
+def distance(strand_a, strand_b):
+    if strand_a == strand_b:
+        return 0
+    ...
+```
+
