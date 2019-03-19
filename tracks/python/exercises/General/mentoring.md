@@ -165,3 +165,10 @@ edits.  The single most common example is a trailing
 `pass` left over from the downloaded sourcefile.  
 Leaving the `pass` is a sign that student doesn't
 understand the keyword.  
+
+#### User Profile Images
+
+It is human psychology to identify with other
+humans.  The default images for the profiles look
+like icons from Space Invaders.  
+Encourage students to post a realistic photo.
